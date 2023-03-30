@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Login</title>
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="style.css"/>
+<!-- Include JS File Here -->
+<script src="js/login.js"></script>
+<style>
+    body {
+    -webkit-animation: colorchange 20s infinite; 
+    animation: colorchange 20s infinite;
+    }
+    @-webkit-keyframes colorchange {
+    0%  {background: #bf4242;}
+    25%  {background: #ff8903;}
+    50%  {background: #fdae02;}
+    75%  {background: #ffd000;}
+    100% {background: #fbff00;}
+    }
+    @keyframes colorchange {
+    0%  {background: #bf4242;}
+    25%  {background: #ff8903;}
+    50%  {background: #fdae02;}
+    75%  {background: #ffd000;}
+    100% {background: #fbff00;}
+    }   
+  </style>
+</head>
+<body>
+<div class="container">
+<div class="main">
+<h2>Login für meine Website</h2>
+<form id="form_id" method="post" name="myform">
+<label>Benutzername :</label>
+<input type="text" name="Benutzername" id="Benutzername"/>
+<label>Passwort :</label>
+<input type="password" name="Passwort" id="Passwort"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+<input type="reset"  style="
+    -webkit-animation: colorchange 20s infinite; 
+    animation: colorchange 20s infinite;
+    
+    @-webkit-keyframes colorchange {
+    0%  {background: #bf4242;}
+    25%  {background: #ff8903;}
+    50%  {background: #fdae02;}
+    75%  {background: #ffd000;}
+    100% {background: #fbff00;}
+    }
+    @keyframes colorchange {
+    0%  {background: #bf4242;}
+    25%  {background: #ff8903;}
+    50%  {background: #fdae02;}
+    75%  {background: #ffd000;}
+    100% {background: #fbff00;}
+    }  "/>
+</form>
+</div>
+</div>
+</body>
+</html>
